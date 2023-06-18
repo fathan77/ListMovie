@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ListMovie</string>
+    <string name="koneksi_error">Tidak ada internet</string>
+    <string name="daftarMovie">Daftar Movie</string>
+    <string name="tentang_aplikasi">About</string>
+    <string name="aboutText">Fathan 4502</string>
+</resources>

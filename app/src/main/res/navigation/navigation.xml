@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/daftarMovieFragment">
+
+    <fragment
+        android:id="@+id/daftarMovieFragment"
+        android:name="com.d3if0154.listmovie.ui.daftarMovie.DaftarMovieFragment"
+        android:label="fragment_daftar_movie"
+        tools:layout="@layout/fragment_daftar_movie" >
+        <action
+            android:id="@+id/action_daftarMovieFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.d3if0154.listmovie.AboutFragment"
+        android:label="AboutFragment" />
+</navigation>
